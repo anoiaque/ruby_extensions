@@ -1,9 +1,11 @@
 === Release 1
 
 Extend Hash with to_sorted_array : Recursively sorted array from hash
-  {'user' => {'adress' => {'town' => 'Paris', 'street' => "rue de Quimper"}, 'name' => 'toto', 'age' => 12}}
+  hash = {'user' => {'adress' => {'town' => 'Paris', 'street' => "rue de Quimper"}, 'name' => 'toto', 'age' => 12}}
+  hash.to_sorted_array
    # => [["user", [["adress", [["street", "rue de Quimper"], ["town", "Paris"]]], ["age", 12], ["name", "toto"]]]
 
 Extend Array with #to_hash :  Recursively convert array to hash 
-  [["user", [["adress", [["street", "rue de Quimper"], ["town", "Paris"]]], ["age", 12], ["name", "toto"]]]]to_sorted_array
+  array = [["user", [["adress", [["street", "rue de Quimper"], ["town", "Paris"]]], ["age", 12], ["name", "toto"]]]]
+  array.to_hash
   # =>{"user"=>  {"name"=>"toto", "adress"=>{"street"=>"rue de Quimper", "town"=>"Paris"}, "age"=>12}}
