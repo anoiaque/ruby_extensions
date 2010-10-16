@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../.././rdoc-style.css" type="text/css" media="screen" />
 </head>
 <body class="standalone-code">
-  <pre><span class="ruby-comment cmt"># File lib/ruby_extensions.rb, line 16</span>
+  <pre><span class="ruby-comment cmt"># File lib/ruby_extend.rb, line 16</span>
   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">to_hash</span> 
     <span class="ruby-identifier">inject</span>({}) <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">hash</span>, (<span class="ruby-identifier">key</span>, <span class="ruby-identifier">value</span>)<span class="ruby-operator">|</span>
       <span class="ruby-identifier">value</span> = <span class="ruby-identifier">value</span>.<span class="ruby-identifier">to_hash</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">value</span>.<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Array</span>)

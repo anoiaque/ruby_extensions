@@ -1,3 +1,7 @@
+=== Install
+
+sudo gem install ruby_extend
+
 === Release 1
 
 Extend Hash with to_sorted_array : Recursively sorted array from hash

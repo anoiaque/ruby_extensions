@@ -1,5 +1,5 @@
 specifications = Gem::Specification.new do |spec| 
-  spec.name = "ruby_extensions"
+  spec.name = "ruby_extend"
   spec.version = "1.0.0"
   spec.author = "Philippe Cantin"
   spec.homepage = "http://github.com/anoiaque/ruby_extensions"
