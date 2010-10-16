@@ -1,4 +1,5 @@
 === Release 1
 
-Extend Hash with #to_sorted_array
-Extend Array with #to_hash
+Extend Hash with to_sorted_array : Recursively sorted array from hash
+
+Extend Array with #to_hash :  Recursively convert array to hash 
