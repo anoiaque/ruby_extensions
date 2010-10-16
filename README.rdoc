@@ -1,0 +1,4 @@
+=== Release 1
+
+Extend Hash with #to_sorted_array
+Extend Array with #to_hash
