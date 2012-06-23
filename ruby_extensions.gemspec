@@ -1,11 +1,11 @@
 specifications = Gem::Specification.new do |spec| 
   spec.name = "ruby_extend"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.author = "Philippe Cantin"
   spec.homepage = "http://github.com/anoiaque/ruby_extensions"
   spec.platform = Gem::Platform::RUBY
-  spec.summary = "Extend some ruby core classes "
-  spec.description = "Extend some ruby core classes "
+  spec.summary = "Extend some ruby core classes"
+  spec.description = "Extend some ruby core classes"
   spec.files = Dir['lib/**/*.rb']
   spec.require_path = "lib"
   spec.test_files  = Dir['test/**/*.rb']

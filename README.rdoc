@@ -13,3 +13,11 @@ Extend Array with #to_hash :  Recursively convert array to hash
   array = [["user", [["adress", [["street", "rue de Quimper"], ["town", "Paris"]]], ["age", 12], ["name", "toto"]]]]
   array.to_hash
   # =>{"user"=>  {"name"=>"toto", "adress"=>{"street"=>"rue de Quimper", "town"=>"Paris"}, "age"=>12}}
+
+=== Release 2
+	Array#move(from,to)
+	Array#included_in?(array)
+	Array#duplicates
+	Array#map_with_index
+	Array#average
+	Array#longest
