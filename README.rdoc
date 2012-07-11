@@ -2,6 +2,10 @@
 
 sudo gem install ruby_extend
 
+== Quality Metrics
+
+{<img src="https://codeclimate.com/badge.png" />}[https://codeclimate.com/github/anoiaque/ruby_extensions]
+
 === Release 1
 
 Extend Hash with to_sorted_array : Recursively sorted array from hash
